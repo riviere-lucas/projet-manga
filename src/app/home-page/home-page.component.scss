@@ -1,0 +1,49 @@
+body{
+    background-color: var(--secondary);
+}
+.container > p {
+    font-size: 60px;
+    color: var(--lightgray);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card > img {
+    width: 450px;
+    height: 600px;
+    padding: 10px 0px;
+}
+
+.card > a {
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content > p {
+    margin: 10px 0px 30px 0px;
+}
+
+.carousel-item {
+    color: var(--lightgray);
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x-mandatory;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    // equivalent flex: 1 0 450px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+

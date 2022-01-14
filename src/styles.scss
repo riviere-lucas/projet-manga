@@ -203,6 +203,15 @@
       }
       transition: backgroundColor 0.4s;
     }
+
+    &-third {
+      background-color: var(--primary);
+      color: white;
+      &:hover{
+        background-color: var(--accent);
+      }
+      transition: backgroundColor 0.4s;
+    }
   }
 
 
